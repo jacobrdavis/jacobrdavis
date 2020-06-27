@@ -10,20 +10,20 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 	 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <title>Home</title>
+    <title>Artwork</title>
   </head>
   <body>
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
   <div class="container-fluid">
-  	<span class="navbar-brand mb-0 h1">Jacob R. Davis</span>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+    <span class="navbar-brand mb-0 h1">Jacob R. Davis</span>
+  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
   		<span class="navbar-toggler-icon"></span>
   	</button>
   	<div class="collapse navbar-collapse" id="navbarResponsive">
   		<ul class="navbar-nav ml-auto">
-  			<li class="nav-item active">
+  			<li class="nav-item">
   				<a class="nav-link" href="index.html">Home</a>
   			</li>
         <li class="nav-item">
@@ -35,49 +35,80 @@
         <li class="nav-item">
           <a class="nav-link" href="#">Music</a>
         </li>
-         <li class="nav-item">
+         <li class="nav-item active">
           <a class="nav-link" href="artwork.html">Artwork</a>
         </li>               
   		</ul>
   </div>
   </nav>
 
-  <!--- Image Slider -->
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img class="d-block w-100" src="img/long_island_sound.jpg" alt="First slide">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Old Saybrook, CT</h5>
-          </div>
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="img/jeep2.jpg" alt="Second slide">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Chesterfield, MA</h5>
-          </div>
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="img/Block_island.jpg" alt="Third slide">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Block Island, RI</h5>
-          </div>
-      </div>
+  <!--- Main Body -->
+<div class="container ml-auto">
+
+  <div class="row mx-md-n5" >
+    <div class="col-md-4 py-3 px-md-3">
+      <h2>Charles Neville</h2>
+      <p class="text-muted">Graphite, 2019 <br>For Uncle Jack.</p>
+      <a href="https://www.rollingstone.com/music/music-news/charles-neville-remembering-the-neville-brothers-saxophone-playing-mystic-628997/">Charles Neville: Remembering the Neville Brothers’ Saxophone-Playing Mystic (Rolling Stone)</a>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
+    <div class="col-md-8 py-3 px-md-3">
+      <img class="w-75 mx-auto d-block py-3" src="img/Neville1.jpg">
+      <img class="w-75 mx-auto d-block" src="img/Neville2.jpg">
     </div>
+  </div>
+
+  <div class="row mx-md-n5" >
+    <div class="col-md-4 py-3 px-md-3">
+      <h2>Long Island Sound Topo</h2>
+      <p class="text-muted">Desktop CNC-milled, 2016 <br>For Dad.</p>
+    </div>
+    <div class="col-md-4 py-3 px-md-3">
+      <img class="w-100 mx-auto d-block py-3" src="img/long_island_map1.jpg">
+      <img class="w-100 mx-auto d-block py-3" src="img/long_island_map2.jpg">
+    </div>
+    <div class="col-md-4 py-3 px-md-3">
+      <img class="w-100 mx-auto d-block py-3" src="img/long_island_map3.jpg">
+      <img class="w-100 mx-auto d-block py-3" src="img/long_island_map4.jpg">
+    </div>
+  </div>
+
+ <div class="row mx-md-n5" >
+    <div class="col-md-4 py-3 px-md-3">
+      <h2>Nikola Tesla</h2>
+      <p class="text-muted">Graphite, 2015</p>
+    </div>
+    <div class="col-md-8 py-3 px-md-3">
+      <img class="w-75 mx-auto d-block" src="img/Tesla.jpg">
+    </div>
+  </div>
+
+  <div class="row mx-md-n5" >
+    <div class="col-md-4 py-3 px-md-3">
+      <h2>John Lennon</h2>
+      <p class="text-muted">Charcoal, 2013</p>
+    </div>
+    <div class="col-md-8 py-3 px-md-3">
+      <img class="w-75 mx-auto d-block" src="img/John_Lennon.jpg">
+    </div>
+  </div>
+
+  <div class="row mx-md-n5" >
+    <div class="col-md-4 py-3 px-md-3">
+      <h2>Miscellaneous</h2>
+      <p class="text-muted">Desktop CNC-milled, 2016 <br>For Dad.</p>
+    </div>
+    <div class="col-md-4 py-3 px-md-3">
+      <img class="w-100 mx-auto d-block py-3" src="img/long_island_map1.jpg">
+      <img class="w-100 mx-auto d-block py-3" src="img/long_island_map2.jpg">
+    </div>
+    <div class="col-md-4 py-3 px-md-3">
+      <img class="w-100 mx-auto d-block py-3" src="img/long_island_map3.jpg">
+      <img class="w-100 mx-auto d-block py-3" src="img/long_island_map4.jpg">
+    </div>
+  </div>
+
+</div>
+
 
 
 <!--- Contact Info -->
