@@ -17,9 +17,9 @@ html, body {
 .nav-link{
 	font-size: 1.1em;
 }
-
+/* cadet color: #5f9ea0; #458aa1; #4d99b3; #5ea3ba; #70adc2; #6a9caf*/
 footer {
-	background-color: #5f9ea0;
+	background-color: #3d7a8f; 
 	color: #d5d5d5;
 	padding-top: 2rem;
 }
