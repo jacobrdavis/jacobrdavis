@@ -17,6 +17,28 @@ html, body {
 .nav-link{
 	font-size: 1.1em;
 }
+
+.card-body{
+	padding: .75em
+}
+
+.card-text{
+	padding-top: 0.25 em 
+	padding-bottom: 0.25 em
+	margin-right: 0.25 em
+	margin-left: 0.25 em
+	margin-top: 0rem;
+	margin-bottom: 0rem; 
+
+}
+
+div.figure {
+
+  margin: .5 em;
+  padding: 5em;
+
+}
+
 /* cadet color: #5f9ea0; #458aa1; #4d99b3; #5ea3ba; #70adc2; #6a9caf*/
 footer {
 	background-color: #3d7a8f; 
@@ -29,6 +51,16 @@ hr.light {
 	width: 75%;
 	margin-top: .8rem;
 	margin-bottom: 1 rem; 
+}
+
+p.lighter {
+	color: #d5d5d5;
+	font-size: 0.5em;
+	width: 100%;
+	margin-top: .1 rem;
+	margin-bottom: .1 rem; 
+	text-align: center;
+	font-style: italic;
 }
 
 footer a {
