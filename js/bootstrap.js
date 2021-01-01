@@ -541,7 +541,7 @@
   $(document).on(EVENT_CLICK_DATA_API$1, SELECTOR_DATA_TOGGLE_CARROT, function (event) {
     var button = event.target;
     var initialButton = button;
-
+    
     if (!$(button).hasClass(CLASS_NAME_BUTTON)) {
       button = $(button).closest(SELECTOR_BUTTON)[0];
     }
