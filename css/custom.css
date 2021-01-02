@@ -1,12 +1,39 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
 
 
+html {
+	position: relative;
+	min-height: 100%;
+  }
+
+
 html, body {
+	/*
 	height: 100%;
-	width: 100%;
+	width: 100%; */
 	font-family: 'Open Sans', sans-serif;
 	color: #222;
 }
+
+body {
+	/* Margin bottom by footer height */
+	/* must match footer.height */
+	margin-bottom: 120px;
+  }
+ 
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	/* must match body.margin-bottom */
+	height: 120px;  
+	padding-top: 20px;
+	background-color: #3d7a8f; 
+	color: #d5d5d5;
+  }
+
 
 section {padding:2rem;}
 .bg-white {background-color:#ffffff;}
@@ -27,10 +54,10 @@ section {padding:2rem;}
 }
 
 .card-text{
-	padding-top: 0.25 em 
-	padding-bottom: 0.25 em
-	margin-right: 0.25 em
-	margin-left: 0.25 em
+	padding-top: 0.25 em; 
+	padding-bottom: 0.25 em;
+	margin-right: 0.25 em;
+	margin-left: 0.25 em;
 	margin-top: 0rem;
 	margin-bottom: 0rem; 
 
@@ -42,10 +69,9 @@ div.figure {
   padding: 5em;
 
 }
-/**/
 
 
-.styled {
+button.styled {
     /*border: 0;
     line-height: 2.5;
     padding: 0 20px;
@@ -55,17 +81,12 @@ div.figure {
     border-radius: 10px;
     background-color: rgba(220, 0, 0, 1);
     background-image: linear-gradient(to top left,
-                                      rgba(0, 0, 0, .2),
-                                      rgba(0, 0, 0, .2) 30%,
-                                      rgba(0, 0, 0, 0));
-    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
-                inset -2px -2px 3px rgba(0, 0, 0, .6);
 	*/
 	font-size: 1.2rem;
     color: #3d7a8f;
 }
 
-.styled:hover {
+button.styled:hover {
     color: #be6c00;
 }
 
@@ -80,11 +101,7 @@ a:hover {
 }
 
 /* cadet color: #5f9ea0; #458aa1; #4d99b3; #5ea3ba; #70adc2; #6a9caf*/
-footer {
-	background-color: #3d7a8f; 
-	color: #d5d5d5;
-	padding-top: 2rem;
-}
+
 
 hr.light {
 	border-top: 1px solid #d5d5d5;
@@ -104,6 +121,22 @@ p.lighter {
 }
 
 footer a {
-	color: %d5d5d5;
+	color: #d5d5d5;
 }
 
+div #researchheader {
+	display: flex;
+	align-items: center;
+	/* Remove the next line if you want the span to appear next to the h1 */
+	justify-content: space-between;
+	/*padding: 10px 30px;*/
+  }
+
+p.sameline { 
+	display: inline;
+	margin: 5em 0;
+}
+
+p.smallmargin { 
+	margin: .3em 0;
+}
