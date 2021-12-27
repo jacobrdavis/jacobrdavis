@@ -15,6 +15,7 @@ html, body {
 	color: #222;
 }
 
+
 body {
 	/* Margin bottom by footer height */
 	/* must match footer.height */
@@ -84,13 +85,41 @@ button.styled {
 	*/
 	font-size: 1.2rem;
     color: #3d7a8f;
+	text-align: left;
 }
 
 button.styled:hover {
     color: #be6c00;
 }
+	
+button.wide {
 
+	display: block;
+    width: 100%;
+	/* height: 5rem; */
+}
 
+.card.styled {
+	background-color: transparent;
+	border: none;
+}
+
+.styled .card-header {
+	background-color: transparent;
+	border: none;
+}
+
+.panel-heading .accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+    content: "\e114";    /* adjust as needed, taken from bootstrap.css */
+    float: right;        /* adjust as needed */
+    color: grey;         /* adjust as needed */
+}
+.panel-heading .accordion-toggle.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\e080";    /* adjust as needed, taken from bootstrap.css */
+}
 
 a {
 	color: #3d7a8f;
@@ -110,6 +139,17 @@ hr.light {
 	margin-bottom: 1 rem; 
 }
 
+
+p.abstracttext{
+	color: #535353;
+	font-size: 1em;
+	/*width: 100%;
+	margin-top: .1 rem;
+	margin-bottom: .1 rem; 
+	text-align: center; */
+	/*font-style: italic;*/
+}
+
 p.lighter {
 	color: #d5d5d5;
 	font-size: 0.5em;
@@ -119,6 +159,7 @@ p.lighter {
 	text-align: center;
 	font-style: italic;
 }
+
 
 footer a {
 	color: #d5d5d5;
@@ -140,3 +181,24 @@ p.sameline {
 p.smallmargin { 
 	margin: .3em 0;
 }
+
+/* Style all font awesome icons */
+a.fa {
+	padding: 20px;
+	font-size: 40px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+  }
+  
+/* Style academicons https://jpswalsh.github.io/academicons/ */
+a.ai {
+	padding: 20px;
+	font-size: 40px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+  }  
+  
+
+  
