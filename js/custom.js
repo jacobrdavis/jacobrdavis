@@ -4,7 +4,7 @@ function toggleChevron(e) {
       .find("i.mdi")
       .toggleClass('mdi-chevron-down mdi-chevron-up');
   }
-  
+
   $('#accordion').on('hidden.bs.collapse', toggleChevron);
   $('#accordion').on('shown.bs.collapse', toggleChevron);
 
@@ -15,7 +15,7 @@ function toggleChevron(e) {
       $(".collapse.show").each(function(){
           $(this).prev(".card-header").find(".fa").addClass("fa-minus").removeClass("fa-plus");
       });
-      
+
       // Toggle plus minus icon on show hide of collapse element
       $(".collapse").on('show.bs.collapse', function(){
           $(this).prev(".card-header").find(".fa").removeClass("fa-plus").addClass("fa-minus");

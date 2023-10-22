@@ -6,13 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
     <link rel="stylesheet" type="text/css" href="css/custom.css">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-	 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-	 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+    <script src="js/plugins/leaflet.shapefile/leaflet.shpfile.js"></script>
+    <script src="js/plugins/leaflet.shapefile/shp.js"></script>
     <title>Research</title>
-  </head>
+    </head>
     <body>
+
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
@@ -40,19 +49,31 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="artwork.html">Artwork</a>
-          </li>               
+          </li>
         </ul>
+    </div>
     </div>
     </nav>
 
     <!--- Main Body -->
-      
+
+    <section class="bg-white">
+      <div class="container ml-auto">
+        <div class="row mx-md-n5" >
+          <div class="col-md-12 py-3 px-md-3">
+            <div id="map"></div>
+            <script src="js/research_map.js"></script>
+          </div>
+        </div>
+      </div>
+
+
     <section class="bg-white">
       <div class="container ml-auto">
         <div class="row mx-md-n5" >
 
           <div class="col-md-8 py-3 px-md-3">
-            <h4>Air-deployed wave buoys for hurricane forecast improvements</h2>
+            <h4>Air-deployed wave buoys for hurricane forecast improvements</h4>
             <p class="text-muted">UW Applied Physics Laboratory; 2021 to present</p>
             <p>As part of the NOPP Hurricane Coastal Impacts (NHCI) project, our team air deploys small, drifting buoys ahead of landfalling hurricanes to obtain observations of extreme waves at the ocean's surface. We work closely with the Navy's Scientific Development Squadron (VXS-1) to conduct rapid response deployments from an NP-3C airplane. This project is a primary focus of my doctoral work at the University of Washington; I help to develop one of our team's buoy types, the microSWIFT, and routinely fly with VXS-1 to deploy. Learn more at <a href="https://nopphurricane.sofarocean.com/" target="_blank">nopphurricane.sofarocean.com/</a>.<br>
             <!-- The collective goal of the project is to improve forecasts of hurricane impacts at the coast.  -->
@@ -128,6 +149,35 @@
         <div class="row mx-md-n5" >
 
           <div class="col-md-8 py-3 px-md-3">
+            <h4>microSWIFT wave buoy development</h2>
+              <p class="text-muted">UW Applied Physics Laboratory; 2021 to present</p>
+              <p>Description<br>
+              <br>
+              Related Citations:
+              <ul>
+                <li>
+                <a href="link" target="_blank">text</a>
+                </li>
+              </ul>
+          </p>
+          </div>
+
+          <div class="col-md-4 py-3 px-md-3">
+            <figure class="figure">
+              <img class="w-100 mx-auto d-block py-3" src="img/research/microSWIFT/microSWIFT_wave.JPG">
+              <figcaption class="figure-caption">microSWIFTs measuring a wave in the surfzone.</figcaption>
+            </figure>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-gray">
+      <div class="container ml-auto">
+        <div class="row mx-md-n5" >
+
+          <div class="col-md-8 py-3 px-md-3">
             <h4>Oscillating surge wave energy converters</h2>
             <p class="text-muted">University of Massachusetts Amherst;
               in collaboration with the National Renewable Energy Lab <br> 
@@ -157,7 +207,7 @@
       </div>
     </section>
 
-    <section class="bg-gray">
+    <section class="bg-white">
       <div class="container ml-auto">
         <div class="row mx-md-n5" >
 
@@ -195,7 +245,7 @@
       </div>
     </section>
 
-    <section class="bg-white">
+    <section class="bg-gray">
       <div class="container ml-auto">
         <div class="row mx-md-n5" >
 

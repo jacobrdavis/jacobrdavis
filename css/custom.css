@@ -201,4 +201,6 @@ a.ai {
   }  
   
 
-  
+
+/* Leaflet.js  Map */
+#map { height: 360px; }
