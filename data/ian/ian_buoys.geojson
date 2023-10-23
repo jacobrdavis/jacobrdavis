@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "index": "019", "time": "2022\/09\/26 18:42:08.000+00" }, "geometry": { "type": "Point", "coordinates": [ -83.811126708984375, 26.196615219116211 ] } },
+{ "type": "Feature", "properties": { "index": "057", "time": "2022\/09\/26 18:42:08.000+00" }, "geometry": { "type": "Point", "coordinates": [ -85.012100219726562, 27.392812728881836 ] } },
+{ "type": "Feature", "properties": { "index": "SPOT-30024D", "time": "2022\/09\/27 00:30:18+00" }, "geometry": { "type": "Point", "coordinates": [ -84.24557, 26.5603 ] } },
+{ "type": "Feature", "properties": { "index": "SPOT-30065D", "time": "2022\/09\/27 00:28:28+00" }, "geometry": { "type": "Point", "coordinates": [ -84.65717, 26.99492 ] } },
+{ "type": "Feature", "properties": { "index": "SPOT-30068D", "time": "2022\/09\/27 00:15:55+00" }, "geometry": { "type": "Point", "coordinates": [ -82.4328333, 26.0389 ] } },
+{ "type": "Feature", "properties": { "index": "SPOT-30096D", "time": "2022\/09\/27 00:14:00+00" }, "geometry": { "type": "Point", "coordinates": [ -83.2129333, 27.5576833 ] } },
+{ "type": "Feature", "properties": { "index": "SPOT-30097D", "time": "2022\/09\/27 00:07:53+00" }, "geometry": { "type": "Point", "coordinates": [ -83.0256333, 26.80315 ] } },
+{ "type": "Feature", "properties": { "index": "SPOT-30104D", "time": "2022\/09\/27 00:15:02+00" }, "geometry": { "type": "Point", "coordinates": [ -85.4242833, 27.78775 ] } }
+]
+}

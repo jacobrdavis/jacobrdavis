@@ -11,13 +11,9 @@
     crossorigin=""/>
     <link rel="stylesheet" type="text/css" href="css/custom.css">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-	  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-	  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-    crossorigin=""></script>
-    <script src="js/plugins/leaflet.shapefile/leaflet.shpfile.js"></script>
-    <script src="js/plugins/leaflet.shapefile/shp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
     <title>Research</title>
     </head>
     <body>
@@ -62,6 +58,10 @@
         <div class="row mx-md-n5" >
           <div class="col-md-12 py-3 px-md-3">
             <div id="map"></div>
+            <script src="js/plugins/leaflet-shapefile/leaflet.shpfile.js"></script>
+            <script src="js/plugins/leaflet-shapefile/shp.js"></script>
+            <script src="js/plugins/leaflet-ajax/dist/leaflet.ajax.js" type="text/javascript"></script>
+            <!-- <script type="text/javascript" src="lib/leaflet/leaflet.ajax.js"></script> -->
             <script src="js/research_map.js"></script>
           </div>
         </div>

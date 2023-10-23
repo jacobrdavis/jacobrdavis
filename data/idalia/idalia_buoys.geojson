@@ -1,0 +1,20 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "index": "029", "time": "2023\/08\/28 21:34:56.000+00" }, "geometry": { "type": "Point", "coordinates": [ -82.959136962890625, 27.624406814575195 ] } },
+{ "type": "Feature", "properties": { "index": "037", "time": "2023\/08\/28 20:43:44+00" }, "geometry": { "type": "Point", "coordinates": [ -82.724876403808594, 26.911594390869141 ] } },
+{ "type": "Feature", "properties": { "index": "046", "time": "2023\/08\/28 20:45:52+00" }, "geometry": { "type": "Point", "coordinates": [ -84.089958190917969, 28.556108474731445 ] } },
+{ "type": "Feature", "properties": { "index": "048", "time": "2023\/08\/28 21:34:56.000+00" }, "geometry": { "type": "Point", "coordinates": [ -83.397018432617188, 28.165397644042969 ] } },
+{ "type": "Feature", "properties": { "index": "SPOT-30025D", "time": "2023\/08\/28 22:06:01+00" }, "geometry": { "type": "Point", "coordinates": [ -83.2025, 27.9073833 ] } },
+{ "type": "Feature", "properties": { "index": "SPOT-30052D", "time": "2023\/08\/28 22:00:24+00" }, "geometry": { "type": "Point", "coordinates": [ -84.7255, 29.37832 ] } },
+{ "type": "Feature", "properties": { "index": "SPOT-30055D", "time": "2023\/08\/28 21:57:18+00" }, "geometry": { "type": "Point", "coordinates": [ -83.8796, 28.2754333 ] } },
+{ "type": "Feature", "properties": { "index": "SPOT-30061D", "time": "2023\/08\/28 22:01:29+00" }, "geometry": { "type": "Point", "coordinates": [ -83.01402, 27.16538 ] } },
+{ "type": "Feature", "properties": { "index": "SPOT-30066D", "time": "2023\/08\/28 21:56:01+00" }, "geometry": { "type": "Point", "coordinates": [ -82.7853, 27.3335833 ] } },
+{ "type": "Feature", "properties": { "index": "SPOT-30095D", "time": "2023\/08\/28 22:01:31+00" }, "geometry": { "type": "Point", "coordinates": [ -83.9299333, 29.3089 ] } },
+{ "type": "Feature", "properties": { "index": "SPOT-30101D", "time": "2023\/08\/28 20:10:21+00" }, "geometry": { "type": "Point", "coordinates": [ -83.4410667, 27.6929 ] } },
+{ "type": "Feature", "properties": { "index": "SPOT-30102D", "time": "2023\/08\/28 21:54:25+00" }, "geometry": { "type": "Point", "coordinates": [ -83.3370333, 28.5890833 ] } },
+{ "type": "Feature", "properties": { "index": "SPOT-30103D", "time": "2023\/08\/28 21:56:01+00" }, "geometry": { "type": "Point", "coordinates": [ -83.56495, 28.46022 ] } },
+{ "type": "Feature", "properties": { "index": "SPOT-30164D", "time": "2023\/08\/28 21:57:31+00" }, "geometry": { "type": "Point", "coordinates": [ -84.34435, 28.8722333 ] } }
+]
+}
