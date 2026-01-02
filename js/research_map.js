@@ -129,6 +129,7 @@ function addClickRegion(latlng, clickLink) {
     return clickRegion
 };
 
+// TODO: make groups toggle
 var ianGroup = L.featureGroup([
     addHurricaneLine("data/ian/AL092022", "https://leafletjs.com/reference.html#circlemarker"),
     addHurricaneSwath("data/ian/AL092022", "https://leafletjs.com/reference.html#circlemarker"),
