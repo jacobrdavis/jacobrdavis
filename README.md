@@ -1,4 +1,4 @@
 # jacobrdavis
 Personal website hosted on GitHub
 
-[jacobrdavis.me](http://jacobrdavis.me)
+[https://jakedavis.science/](https://jakedavis.science/)
